@@ -1,0 +1,21 @@
+# Deno files
+deno.json
+deno.lock
+
+# Source files (built files are in dist)
+src/
+
+# Scripts
+scripts/
+
+# Tests
+*.test.ts
+*.e2e.test.ts
+
+# Development
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore

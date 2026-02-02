@@ -1,0 +1,22 @@
+# NPM build output
+npm/
+
+# Deno
+.deno/
+
+# Node modules (if any)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
