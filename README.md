@@ -18,17 +18,6 @@ multiple citation formats.
 npm i citework
 ```
 
-## Why Email is Required for Crossref
-
-The Crossref API requires an email address to access their _"polite pool"_ of servers, which offers:
-
-- **Higher rate limits**: 50 requests/second vs 10/second for anonymous users
-- **Better performance**: Dedicated infrastructure for identified users
-- **Usage tracking**: Helps Crossref understand API usage patterns
-
-Your email is only sent as a URL parameter (`mailto`) to Crossref and is never stored by this library. It's a
-requirement from Crossref to promote responsible API usage and enable them to contact users if needed.
-
 ## Quick Start
 
 ### 1. Search for Academic Papers (Crossref)
@@ -58,6 +47,15 @@ console.log(apa);
 Found 125847 results
 LeCun, Yann, Bengio, Yoshua, & Hinton, Geoffrey (2015). Deep learning. Nature. https://doi.org/10.1038/nature14539
 ```
+
+The Crossref API requires an email address to access their _"polite pool"_ of servers, which offers:
+
+- **Higher rate limits**: 50 requests/second vs 10/second for anonymous users
+- **Better performance**: Dedicated infrastructure for identified users
+- **Usage tracking**: Helps Crossref understand API usage patterns
+
+Your email is only sent as a URL parameter (`mailto`) to Crossref and is never stored by this library. It's a
+requirement from Crossref to promote responsible API usage and enable them to contact users if needed.
 
 ### 2. Search for Books (Google Books)
 
